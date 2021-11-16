@@ -1,0 +1,20 @@
+{
+  "name": "redux-simple-store",
+  "version": "1.0.0",
+  "description": "",
+  "author": "<Dmitry Silchenko> (https://github.com/desofto/)",
+  "license": "MIT",
+  "main": "index.js",
+  "homepage": "https://github.com/desofto/redux-simple-store",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/desofto/redux-simple-store"
+  },
+  "keywords": [
+    "redux",
+    "store"
+  ],
+  "dependencies": {
+    "react": "^17.0.2"
+  }
+}
