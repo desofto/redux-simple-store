@@ -28,7 +28,7 @@ class Store {
   }
 }
 
-function useStore(reducer) {
+function useStore(store, reducer) {
   const [lastState, setLastState] = React.useState(null)
 
   React.useEffect(() => {

@@ -31,7 +31,7 @@ const Button = ({ onClick, children }) => {
 }
 
 function App() {
-  const count = useStore(state => state.count)
+  const count = useStore(store, state => state.count)
 
   useEffect(() => {
     const timer = setInterval(() => {
