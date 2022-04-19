@@ -10,11 +10,32 @@
     "type": "git",
     "url": "https://github.com/desofto/redux-simple-store"
   },
+  "src": "src",
+  "test": "test",
   "keywords": [
     "redux",
     "store"
   ],
   "dependencies": {
-    "react": "^17.0.2"
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "redux": "^4.2.0"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "@babel/preset-react": "^7.16.7",
+    "babel-jest": "^27.5.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.6",
+    "jest": "^27.5.1",
+    "react-test-renderer": "^18.0.0"
+  },
+  "scripts": {
+    "test": "jest --verbose",
+    "watch-test": "jest --watch"
+  },
+  "jest": {
+    "testEnvironment": "jsdom"
   }
 }

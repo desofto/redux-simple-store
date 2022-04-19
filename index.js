@@ -17,7 +17,7 @@ function Store(state) {
         store.dispatch({ type: "update", change: { [name]: value } })
       }
     })
-  });
+  })
 }
 
 Store.subscribe = function(store, callback) {
