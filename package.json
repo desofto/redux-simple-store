@@ -1,6 +1,6 @@
 {
   "name": "redux-simple-store",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "author": "<Dmitry Silchenko> (https://github.com/desofto/)",
   "license": "MIT",
@@ -16,10 +16,10 @@
     "redux",
     "store"
   ],
-  "dependencies": {
-    "react": "^18.0.0",
-    "react-dom": "^18.0.0",
-    "redux": "^4.2.0"
+  "peerDependencies": {
+    "react": ">= 16",
+    "react-dom": ">= 16",
+    "redux": ">= 4"
   },
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.17.9",
